@@ -14,6 +14,54 @@
     <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MrCoto.Ca.-1967972642.00" t="ExcludeRecursive" />
     <e p="C:\Users\José\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Users\José\Documents\proyectos\MrCoto.Ca" t="IncludeFlat">
+      <e p="MrCoto.Ca.AppCli" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="Background" t="Include">
+            <e p="ConsoleBackgroundJobService.cs" t="Include" />
+          </e>
+          <e p="ClientDetection" t="Include">
+            <e p="ConsoleClientInfoDetection.cs" t="Include" />
+          </e>
+          <e p="CurrentUsers" t="Include">
+            <e p="ConsoleCurrentUserService.cs" t="Include" />
+          </e>
+          <e p="ICommandable.cs" t="Include" />
+          <e p="Query" t="Include">
+            <e p="ConsolePaginationBuilder.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="CommandUtil.cs" t="Include" />
+            <e p="PrinterHelper.cs" t="Include" />
+            <e p="PrinterTableHelper.cs" t="Include" />
+            <e p="PromptHelper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DependencyInjection.cs" t="Include" />
+        <e p="Dockerfile" t="Include" />
+        <e p="Modules" t="Include">
+          <e p="GeneralModule" t="Include">
+            <e p="GeneralCmd.cs" t="Include" />
+            <e p="Users" t="Include">
+              <e p="CreateUserCmd.cs" t="Include" />
+              <e p="ListUserCmd.cs" t="Include" />
+              <e p="UserCmd.cs" t="Include" />
+            </e>
+            <e p="VersionCmd.cs" t="Include" />
+          </e>
+        </e>
+        <e p="MrCoto.Ca.AppCli.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MrCoto.Ca.AppCli.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="MrCoto.Ca.Application" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Common" t="Include">
