@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\José\.nuget\packages\microsoft.net.test.sdk\16.8.3\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\José\.nuget\packages\microsoft.testplatform.testhost\16.8.3\build\netcoreapp2.1\x64\Microsoft.TestPlatform.PlatformAbstractions.dll" t="Include" />
+    <e p="C:\Users\José\.nuget\packages\microsoft.testplatform.testhost\16.8.3\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\José\.nuget\packages\microsoft.testplatform.testhost\16.8.3\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\José\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\José\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\José\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MrCoto.Ca.-1967972642.00" t="ExcludeRecursive" />
     <e p="C:\Users\José\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
@@ -185,6 +194,54 @@
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="MrCoto.Ca.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="MrCoto.Ca.ApplicationTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="CurrentUsers" t="Include">
+            <e p="FakeData" t="Include">
+              <e p="CurrentRoleFake.cs" t="Include" />
+              <e p="CurrentTenantFake.cs" t="Include" />
+              <e p="CurrentUserFake.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Query" t="Include">
+            <e p="Filtering" t="Include">
+              <e p="FilterParserTest.cs" t="Include" />
+            </e>
+            <e p="Sorting" t="Include">
+              <e p="SortParserTest.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Modules" t="Include">
+          <e p="GeneralModule" t="Include">
+            <e p="Users" t="Include">
+              <e p="Commands" t="Include">
+                <e p="CreateUserCommandHandlerTest.cs" t="Include" />
+                <e p="DisableUserCommandHandlerTest.cs" t="Include" />
+                <e p="LoginUserCommandHandlerTest.cs" t="Include" />
+                <e p="RefreshTokenCommandHandlerTest.cs" t="Include" />
+              </e>
+              <e p="FakeData" t="Include">
+                <e p="DisablementTypeFake.cs" t="Include" />
+                <e p="LoginMaxAttemptFake.cs" t="Include" />
+                <e p="RefreshTokenFake.cs" t="Include" />
+                <e p="RoleFake.cs" t="Include" />
+                <e p="TenantFake.cs" t="Include" />
+                <e p="UserFake.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="MrCoto.Ca.ApplicationTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MrCoto.Ca.ApplicationTests.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
