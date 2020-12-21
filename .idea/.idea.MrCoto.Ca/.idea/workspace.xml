@@ -6,29 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b5c9ab-6b0e-4560-8358-9e541a5192c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/Background/ConsoleBackgroundJobService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/ClientDetection/ConsoleClientInfoDetection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/CurrentUsers/ConsoleCurrentUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/ICommandable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/Query/ConsolePaginationBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/Utils/CommandUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/Utils/PrinterHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/Utils/PrinterTableHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Common/Utils/PromptHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Modules/GeneralModule/GeneralCmd.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Modules/GeneralModule/Users/CreateUserCmd.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Modules/GeneralModule/Users/ListUserCmd.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Modules/GeneralModule/Users/UserCmd.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Modules/GeneralModule/VersionCmd.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/MrCoto.Ca.AppCli.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.AppCli/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.windows.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +53,8 @@
       <option value="$PROJECT_DIR$/MrCoto.Ca.AppCli/appsettings.json" />
       <option value="$PROJECT_DIR$/MrCoto.Ca.AppCli/Program.cs" />
       <option value="$PROJECT_DIR$/MrCoto.Ca.AppCli/DependencyInjection.cs" />
+      <option value="$PROJECT_DIR$/docker-compose.windows.yml" />
+      <option value="$PROJECT_DIR$/readme.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lxt9TerO9uANDGBowwiXWDOoW6" />
@@ -154,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608550427483</updated>
       <workItem from="1608550449973" duration="962000" />
-      <workItem from="1608551500080" duration="3410000" />
+      <workItem from="1608551500080" duration="4651000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,49 @@
+﻿version: "3.8"
+services:
+  appcli:
+    build:
+      context: .
+      dockerfile: ./MrCoto.Ca.AppCli/Dockerfile
+    container_name: "app_ca_cli"
+    restart: unless-stopped
+    tty: true
+    environment:
+      "ConnectionStrings:DB": "Host=pg_ca;Database=ca_db;Username=postgres;Password=secret"
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+  appwebapi:
+    build:
+      context: .
+      dockerfile: ./MrCoto.Ca.WebApi/Dockerfile
+    container_name: "app_ca_webapi"
+    restart: unless-stopped
+    tty: true
+    environment:
+      "ConnectionStrings:DB": "Host=pg_ca;Database=ca_db;Username=postgres;Password=secret"
+    ports:
+      - "5000:80"
+      - "5001:443"
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+  postgres:
+    image: "postgres:11"
+    container_name: "pg_ca"
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secret
+    networks:
+      - app-network
+volumes:
+  pgdata:
+    external: true
+networks:
+  app-network:
+    driver: bridge
