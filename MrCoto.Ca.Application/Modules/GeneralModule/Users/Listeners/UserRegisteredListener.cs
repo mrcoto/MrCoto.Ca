@@ -27,7 +27,7 @@ namespace MrCoto.Ca.Application.Modules.GeneralModule.Users.Listeners
             _logger.LogInformation($"User {user.Name} Registered");
             
             var registerData = new RegisterMailData() { Username = user.Name };
-            var templateData = new MailTemplateData(user.Email, "Bienvenido a Simple Agenda!");
+            var templateData = new MailTemplateData(user.Email, "Bienvenido a Clean Architecture Example!");
             await _mailService.Enqueue(templateData, typeof(IRegisterMail), registerData);
         }
     }

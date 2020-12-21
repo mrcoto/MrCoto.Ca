@@ -6,9 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b5c9ab-6b0e-4560-8358-9e541a5192c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.windows.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Listeners/UserRegisteredListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Listeners/UserRegisteredListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Common/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Common/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/DisablementMail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/DisablementMail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/NewLoginMail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/NewLoginMail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/RegisterMail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/RegisterMail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.WebApi/MrCoto.SimpleAgenda.WebApi.csproj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,11 @@
       <option value="$PROJECT_DIR$/MrCoto.Ca.AppCli/DependencyInjection.cs" />
       <option value="$PROJECT_DIR$/docker-compose.windows.yml" />
       <option value="$PROJECT_DIR$/readme.md" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/DisablementMail.cshtml" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Listeners/UserRegisteredListener.cs" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Common/Pages/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/NewLoginMail.cshtml" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Infrastructure/Modules/GeneralModule/Users/Mails/RegisterMail.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lxt9TerO9uANDGBowwiXWDOoW6" />
@@ -77,7 +86,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="7d0ddd79-39e5-4a7a-8f6b-c03e6f2fda47">
+  <component name="RunManager" selected=".NET Launch Settings Profile.MrCoto.Ca.WebApi">
     <configuration name="MrCoto.Ca.AppCli" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -136,7 +145,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608550427483</updated>
       <workItem from="1608550449973" duration="962000" />
-      <workItem from="1608551500080" duration="4651000" />
+      <workItem from="1608551500080" duration="4923000" />
+      <workItem from="1608575047657" duration="303000" />
     </task>
     <servers />
   </component>
