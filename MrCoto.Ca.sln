@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrCoto.Ca.Application", "Mr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrCoto.Ca.ApplicationTests", "MrCoto.Ca.ApplicationTests\MrCoto.Ca.ApplicationTests.csproj", "{71ACF1EB-99F1-4A73-9E0F-ED72575208F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrCoto.Ca.Infrastructure", "MrCoto.Ca.Infrastructure\MrCoto.Ca.Infrastructure.csproj", "{662AB57B-D622-4D2D-BCE3-2782D15525F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,7 @@ Global
 		{49E1FDD9-00F0-46EC-B72F-B55E21CCE1B2} = {2D4B32EC-C51A-4E44-AA68-E34DECFB41CF}
 		{74011865-E453-4304-B6EF-5EE8AE3A59D8} = {2D4B32EC-C51A-4E44-AA68-E34DECFB41CF}
 		{71ACF1EB-99F1-4A73-9E0F-ED72575208F6} = {AFE0CD65-6FEB-49A3-8505-AD38AA16E752}
+		{662AB57B-D622-4D2D-BCE3-2782D15525F5} = {2D4B32EC-C51A-4E44-AA68-E34DECFB41CF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{49E1FDD9-00F0-46EC-B72F-B55E21CCE1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +36,9 @@ Global
 		{71ACF1EB-99F1-4A73-9E0F-ED72575208F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71ACF1EB-99F1-4A73-9E0F-ED72575208F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71ACF1EB-99F1-4A73-9E0F-ED72575208F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662AB57B-D622-4D2D-BCE3-2782D15525F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662AB57B-D622-4D2D-BCE3-2782D15525F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662AB57B-D622-4D2D-BCE3-2782D15525F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662AB57B-D622-4D2D-BCE3-2782D15525F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

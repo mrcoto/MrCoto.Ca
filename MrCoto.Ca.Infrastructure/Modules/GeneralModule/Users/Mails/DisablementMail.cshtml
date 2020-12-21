@@ -1,0 +1,16 @@
+﻿@model MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Mails.DisablementMailModel
+@{
+    Layout = "Common.Pages.Shared._Layout.cshtml";
+}
+
+<h2>Estimado(a) @Model.Data.Username</h2>
+<p>Su cuenta ha sido bloqueada por el siguiente motivo: <strong>@Model.Data.DisablementType</strong>.</p>
+@if (!string.IsNullOrWhiteSpace(@Model.Data.Observation))
+{
+    <p><strong>Detalle:</strong></p>
+    <blockquote>@Model.Data.Observation</blockquote>
+}
+<p>Si su cuenta ha sido bloqueada por algún error, consulte con un administrador de la plataforma.</p>
+
+<p>Saludos,</p>
+<p>Simple Agenda</p>

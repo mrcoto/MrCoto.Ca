@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>9</LangVersion>
+        <PreserveCompilationReferences>true</PreserveCompilationReferences>
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+        <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+        <MvcRazorExcludeRefAssembliesFromPublish>false</MvcRazorExcludeRefAssembliesFromPublish>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
+        <PackageReference Include="EFCore.NamingConventions" Version="5.0.0" />
+        <PackageReference Include="FluentEmail.Smtp" Version="2.8.0" />
+        <PackageReference Include="FluentMigrator" Version="3.2.9" />
+        <PackageReference Include="FluentMigrator.Runner" Version="3.2.9" />
+        <PackageReference Include="Hangfire.AspNetCore" Version="1.7.18" />
+        <PackageReference Include="Hangfire.Core" Version="1.7.18" />
+        <PackageReference Include="Hangfire.PostgreSql" Version="1.8.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.HttpOverrides" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.1" />
+        <PackageReference Include="RazorLight" Version="2.0.0-rc.2" />
+        <PackageReference Include="Wangkanai.Detection" Version="3.0.0-beta1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MrCoto.Ca.Application\MrCoto.Ca.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Common\Pages\Shared" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Modules\GeneralModule\Users\Mails\DisablementMail.cshtml" />
+        <None Remove="Common\Pages\Shared\_Layout.cshtml" />
+        <EmbeddedResource Include="Common\Pages\Shared\_Layout.cshtml" />
+        <None Remove="Modules\GeneralModule\Users\Mails\RegisterMail.cshtml" />
+        <EmbeddedResource Include="Modules\GeneralModule\Users\Mails\DisablementMail.cshtml" />
+        <EmbeddedResource Include="Modules\GeneralModule\Users\Mails\RegisterMail.cshtml" />
+        <None Remove="Modules\GeneralModule\Users\Mails\NewLoginMail.cshtml" />
+        <EmbeddedResource Include="Modules\GeneralModule\Users\Mails\NewLoginMail.cshtml" />
+    </ItemGroup>
+
+</Project>

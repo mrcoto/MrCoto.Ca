@@ -1,0 +1,55 @@
+﻿@model MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Mails.NewLoginMailModel
+@{
+    Layout = "Common.Pages.Shared._Layout.cshtml";
+}
+
+<h2>Estimado(a) @Model.Data.Username</h2>
+<p>Se ha detectado un nuevo inicio de sesión.</p>
+
+<h3>Dispositivo</h3>
+
+<table style="border: 1px solid #2d3748; border-collapse: collapse; width: 100%">
+    <tbody>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Dipositivo</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Device</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Tipo</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.DeviceType</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Navegador</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Browser</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Ip</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Ip</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>País</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Country</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Region</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Region</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Ciudad</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.City</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Latitud</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Latitude</td>
+        </tr>
+        <tr style="border: 1px solid #2d3748; padding: 4px;">
+            <td style="border: 1px solid #2d3748; padding: 4px; width: 30%"><strong>Longitud</strong></td>
+            <td style="border: 1px solid #2d3748; padding: 4px;">@Model.Data.Longitude</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Si no eres tú, por favor comunícate con administración de la plataforma para solucionar el problema inmediatamente.</p>
+
+<p>Saludos,</p>
+<p>Simple Agenda</p>
