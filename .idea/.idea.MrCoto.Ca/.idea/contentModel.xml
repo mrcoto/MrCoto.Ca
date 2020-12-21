@@ -5,7 +5,63 @@
     <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MrCoto.Ca.-1967972642.00" t="ExcludeRecursive" />
     <e p="C:\Users\José\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Users\José\Documents\proyectos\MrCoto.Ca" t="IncludeFlat">
+      <e p="MrCoto.Ca.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="Entities" t="Include">
+            <e p="AgregateRoot.cs" t="Include" />
+            <e p="Entity.cs" t="Include" />
+            <e p="ISoftDeletable.cs" t="Include" />
+            <e p="ITenantable.cs" t="Include" />
+            <e p="ITimestampable.cs" t="Include" />
+          </e>
+          <e p="Events" t="Include">
+            <e p="DomainEvent.cs" t="Include" />
+          </e>
+          <e p="Exceptions" t="Include">
+            <e p="BusinessException.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="StringExtensions.cs" t="Include" />
+          </e>
+          <e p="ValueObjects" t="Include">
+            <e p="ValueObject.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Modules" t="Include">
+          <e p="GeneralModule" t="Include">
+            <e p="Constants" t="Include">
+              <e p="GeneralConstants.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="DisablementType.cs" t="Include" />
+              <e p="Events" t="Include">
+                <e p="MaxLoginAttemptsReached.cs" t="Include" />
+                <e p="UserLogged.cs" t="Include" />
+                <e p="UserRegistered.cs" t="Include" />
+              </e>
+              <e p="LoginMaxAttempt.cs" t="Include" />
+              <e p="PasswordReset.cs" t="Include" />
+              <e p="RefreshToken.cs" t="Include" />
+              <e p="Role.cs" t="Include" />
+              <e p="Tenant.cs" t="Include" />
+              <e p="User.cs" t="Include" />
+              <e p="UserDisablement.cs" t="Include" />
+              <e p="UserLogin.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="MrCoto.Ca.Domain.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MrCoto.Ca.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="MrCoto.Ca.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
       <e p="Src" t="Include" />
       <e p="Tests" t="Include" />
     </e>

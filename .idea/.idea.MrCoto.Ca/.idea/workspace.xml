@@ -2,14 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b5c9ab-6b0e-4560-8358-9e541a5192c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/AgregateRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/ISoftDeletable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/ITenantable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/ITimestampable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Events/DomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Exceptions/BusinessException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Extensions/StringExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/ValueObjects/ValueObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/AppointmentPlaces/AppointmentPlace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/AppointmentTypes/AppointmentType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/Appointment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentDetail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentRemember.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentRememberType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/Events/AppointmentCreated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/Events/AppointmentUpdated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/CashflowTypes/CashflowType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/Cashflow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/CashflowAppointment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/CashflowAppointmentDetail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/CashflowStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Constants/AppointmentConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Customers/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Constants/GeneralConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/System/SystemScheduleSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Tags/Tag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/DisablementType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Events/MaxLoginAttemptsReached.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Events/UserLogged.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Events/UserRegistered.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/LoginMaxAttempt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/PasswordReset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/RefreshToken.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Tenant.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/UserDisablement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/UserLogin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/MrCoto.Ca.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MrCoto.Ca.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +56,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Domain/Class1.cs" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Domain/MrCoto.Ca.Domain.csproj" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="1lxt9TerO9uANDGBowwiXWDOoW6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="do_not_show_solution_notification" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -42,14 +90,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608550427483</updated>
-      <workItem from="1608550449973" duration="581000" />
+      <workItem from="1608550449973" duration="962000" />
+      <workItem from="1608551500080" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -61,8 +110,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
