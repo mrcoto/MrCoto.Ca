@@ -2,48 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b5c9ab-6b0e-4560-8358-9e541a5192c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/AgregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/ISoftDeletable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/ITenantable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Entities/ITimestampable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Events/DomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Exceptions/BusinessException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/Extensions/StringExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Common/ValueObjects/ValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/AppointmentPlaces/AppointmentPlace.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/AppointmentTypes/AppointmentType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/Appointment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentRemember.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentRememberType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/AppointmentTag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/Events/AppointmentCreated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Appointments/Events/AppointmentUpdated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/CashflowTypes/CashflowType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/Cashflow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/CashflowAppointment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/CashflowAppointmentDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Cashflows/CashflowStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Constants/AppointmentConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/AppointmentModule/Customers/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Constants/GeneralConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/System/SystemScheduleSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Tags/Tag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/DisablementType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Events/MaxLoginAttemptsReached.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Events/UserLogged.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Events/UserRegistered.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/LoginMaxAttempt.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/PasswordReset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/RefreshToken.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/Tenant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/UserDisablement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/Modules/GeneralModule/Users/UserLogin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Domain/MrCoto.Ca.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Background/IBackgroundJobService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Behaviors/LoggingBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Behaviors/PerformanceBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Behaviors/UnhandledExceptionBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Behaviors/ValidationBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/ClientDetection/Data/DeviceInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/ClientDetection/Data/Location.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/ClientDetection/IClientInfoDetection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/CurrentUsers/Exceptions/TenantException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/CurrentUsers/ICurrentUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/CurrentUsers/Response/CurrentRole.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/CurrentUsers/Response/CurrentTenant.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/CurrentUsers/Response/CurrentUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Events/DomainEventNotification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Events/IDomainEventPublisher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Exceptions/EntityNotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Exceptions/ValidationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Mail/Data/IMailTemplate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Mail/Data/MailData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Mail/Data/MailTemplateData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Mail/IMailService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Filtering/Bag/FilterBag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Filtering/Bag/FilterOperator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Filtering/Bag/FilterParam.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Filtering/Parser/FilterParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/IQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/QueryBag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Request/PaginationRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Request/UserData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Response/PaginationResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Sorting/Bag/SortBag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Sorting/Bag/SortOperator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Sorting/Bag/SortParam.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Sorting/IQuerySort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Sorting/Parser/SortParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Renderers/IViewRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Repositories/ITenantRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Repositories/IUow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/IUowGeneral.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Create/CreateUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Create/CreateUserCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Create/CreateUserCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/DisableUser/DisableUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/DisableUser/DisableUserCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/DisableUser/DisableUserCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Login/LoginUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Login/LoginUserCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Login/LoginUserCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/Login/Response/LoginUserResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/RefreshToken/RefreshTokenCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/RefreshToken/RefreshTokenCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/RefreshToken/RefreshTokenCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Commands/RefreshToken/Response/RefreshTokenResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Exceptions/AlreadyDisabledAccountException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Exceptions/ExistingAccountException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Exceptions/InvalidAccountException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Exceptions/InvalidRefreshTokenException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Exceptions/LoginMaxAttemptsReachedException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Listeners/MaxLoginAttemptsReachedDisableUserListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Listeners/UserLoggedRegisterDeviceListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Listeners/UserRegisteredListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Mails/Disablement/DisablementMailData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Mails/Disablement/IDisablementMail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Mails/NewLogin/INewLoginMail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Mails/NewLogin/NewLoginMailData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Mails/Register/IRegisterMail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Mails/Register/RegisterMailData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Query/Default/IUserQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Query/Default/Response/RoleDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Query/Default/Response/TenantDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Query/Default/Response/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Repositories/IRefreshTokenRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Repositories/IRoleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Repositories/ITenantRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Repositories/IUserLoginRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Repositories/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Services/Data/AccessToken.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Services/Data/RefreshTokenData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Services/IAccessTokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Services/IPasswordService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/Users/Services/RefreshTokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MrCoto.Ca.Application/MrCoto.Ca.Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MrCoto.Ca/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MrCoto.Ca.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MrCoto.Ca.sln" afterDir="false" />
@@ -60,6 +102,12 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/MrCoto.Ca.Domain/Class1.cs" />
       <option value="$PROJECT_DIR$/MrCoto.Ca.Domain/MrCoto.Ca.Domain.csproj" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/Class1.cs" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/MrCoto.Ca.Application.csproj" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/Modules/GeneralModule/IUowGeneral.cs" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Filtering/Bag/FilterBag.cs" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/Common/Query/Sorting/Bag/SortBag.cs" />
+      <option value="$PROJECT_DIR$/MrCoto.Ca.Application/DependencyInjection.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lxt9TerO9uANDGBowwiXWDOoW6" />
@@ -91,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608550427483</updated>
       <workItem from="1608550449973" duration="962000" />
-      <workItem from="1608551500080" duration="613000" />
+      <workItem from="1608551500080" duration="897000" />
     </task>
     <servers />
   </component>

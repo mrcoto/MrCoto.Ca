@@ -5,6 +5,190 @@
     <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MrCoto.Ca.-1967972642.00" t="ExcludeRecursive" />
     <e p="C:\Users\José\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Users\José\Documents\proyectos\MrCoto.Ca" t="IncludeFlat">
+      <e p="MrCoto.Ca.Application" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="Background" t="Include">
+            <e p="IBackgroundJobService.cs" t="Include" />
+          </e>
+          <e p="Behaviors" t="Include">
+            <e p="LoggingBehavior.cs" t="Include" />
+            <e p="PerformanceBehavior.cs" t="Include" />
+            <e p="UnhandledExceptionBehavior.cs" t="Include" />
+            <e p="ValidationBehavior.cs" t="Include" />
+          </e>
+          <e p="ClientDetection" t="Include">
+            <e p="Data" t="Include">
+              <e p="DeviceInfo.cs" t="Include" />
+              <e p="Location.cs" t="Include" />
+            </e>
+            <e p="IClientInfoDetection.cs" t="Include" />
+          </e>
+          <e p="CurrentUsers" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="TenantException.cs" t="Include" />
+            </e>
+            <e p="ICurrentUserService.cs" t="Include" />
+            <e p="Response" t="Include">
+              <e p="CurrentRole.cs" t="Include" />
+              <e p="CurrentTenant.cs" t="Include" />
+              <e p="CurrentUser.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Events" t="Include">
+            <e p="DomainEventNotification.cs" t="Include" />
+            <e p="IDomainEventPublisher.cs" t="Include" />
+          </e>
+          <e p="Exceptions" t="Include">
+            <e p="EntityNotFoundException.cs" t="Include" />
+            <e p="ValidationException.cs" t="Include" />
+          </e>
+          <e p="Mail" t="Include">
+            <e p="Data" t="Include">
+              <e p="IMailTemplate.cs" t="Include" />
+              <e p="MailData.cs" t="Include" />
+              <e p="MailTemplateData.cs" t="Include" />
+            </e>
+            <e p="IMailService.cs" t="Include" />
+          </e>
+          <e p="Query" t="Include">
+            <e p="Filtering" t="Include">
+              <e p="Bag" t="Include">
+                <e p="FilterBag.cs" t="Include" />
+                <e p="FilterOperator.cs" t="Include" />
+                <e p="FilterParam.cs" t="Include" />
+              </e>
+              <e p="Parser" t="Include">
+                <e p="FilterParser.cs" t="Include" />
+              </e>
+            </e>
+            <e p="IQuery.cs" t="Include" />
+            <e p="QueryBag.cs" t="Include" />
+            <e p="Request" t="Include">
+              <e p="PaginationRequest.cs" t="Include" />
+              <e p="UserData.cs" t="Include" />
+            </e>
+            <e p="Response" t="Include">
+              <e p="PaginationResponse.cs" t="Include" />
+            </e>
+            <e p="Sorting" t="Include">
+              <e p="Bag" t="Include">
+                <e p="SortBag.cs" t="Include" />
+                <e p="SortOperator.cs" t="Include" />
+                <e p="SortParam.cs" t="Include" />
+              </e>
+              <e p="IQuerySort.cs" t="Include" />
+              <e p="Parser" t="Include">
+                <e p="SortParser.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Renderers" t="Include">
+            <e p="IViewRenderer.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="IRepository.cs" t="Include" />
+            <e p="ITenantRepository.cs" t="Include" />
+            <e p="IUow.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DependencyInjection.cs" t="Include" />
+        <e p="Modules" t="Include">
+          <e p="GeneralModule" t="Include">
+            <e p="IUowGeneral.cs" t="Include" />
+            <e p="Users" t="Include">
+              <e p="Commands" t="Include">
+                <e p="Create" t="Include">
+                  <e p="CreateUserCommand.cs" t="Include" />
+                  <e p="CreateUserCommandHandler.cs" t="Include" />
+                  <e p="CreateUserCommandValidator.cs" t="Include" />
+                </e>
+                <e p="DisableUser" t="Include">
+                  <e p="DisableUserCommand.cs" t="Include" />
+                  <e p="DisableUserCommandHandler.cs" t="Include" />
+                  <e p="DisableUserCommandValidator.cs" t="Include" />
+                </e>
+                <e p="Login" t="Include">
+                  <e p="LoginUserCommand.cs" t="Include" />
+                  <e p="LoginUserCommandHandler.cs" t="Include" />
+                  <e p="LoginUserCommandValidator.cs" t="Include" />
+                  <e p="Response" t="Include">
+                    <e p="LoginUserResponse.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="RefreshToken" t="Include">
+                  <e p="RefreshTokenCommand.cs" t="Include" />
+                  <e p="RefreshTokenCommandHandler.cs" t="Include" />
+                  <e p="RefreshTokenCommandValidator.cs" t="Include" />
+                  <e p="Response" t="Include">
+                    <e p="RefreshTokenResponse.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Exceptions" t="Include">
+                <e p="AlreadyDisabledAccountException.cs" t="Include" />
+                <e p="ExistingAccountException.cs" t="Include" />
+                <e p="InvalidAccountException.cs" t="Include" />
+                <e p="InvalidRefreshTokenException.cs" t="Include" />
+                <e p="LoginMaxAttemptsReachedException.cs" t="Include" />
+              </e>
+              <e p="Listeners" t="Include">
+                <e p="MaxLoginAttemptsReachedDisableUserListener.cs" t="Include" />
+                <e p="UserLoggedRegisterDeviceListener.cs" t="Include" />
+                <e p="UserRegisteredListener.cs" t="Include" />
+              </e>
+              <e p="Mails" t="Include">
+                <e p="Disablement" t="Include">
+                  <e p="DisablementMailData.cs" t="Include" />
+                  <e p="IDisablementMail.cs" t="Include" />
+                </e>
+                <e p="NewLogin" t="Include">
+                  <e p="INewLoginMail.cs" t="Include" />
+                  <e p="NewLoginMailData.cs" t="Include" />
+                </e>
+                <e p="Register" t="Include">
+                  <e p="IRegisterMail.cs" t="Include" />
+                  <e p="RegisterMailData.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Query" t="Include">
+                <e p="Default" t="Include">
+                  <e p="IUserQuery.cs" t="Include" />
+                  <e p="Response" t="Include">
+                    <e p="RoleDto.cs" t="Include" />
+                    <e p="TenantDto.cs" t="Include" />
+                    <e p="UserDto.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Repositories" t="Include">
+                <e p="IRefreshTokenRepository.cs" t="Include" />
+                <e p="IRoleRepository.cs" t="Include" />
+                <e p="ITenantRepository.cs" t="Include" />
+                <e p="IUserLoginRepository.cs" t="Include" />
+                <e p="IUserRepository.cs" t="Include" />
+              </e>
+              <e p="Services" t="Include">
+                <e p="Data" t="Include">
+                  <e p="AccessToken.cs" t="Include" />
+                  <e p="RefreshTokenData.cs" t="Include" />
+                </e>
+                <e p="IAccessTokenService.cs" t="Include" />
+                <e p="IPasswordService.cs" t="Include" />
+                <e p="RefreshTokenService.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="MrCoto.Ca.Application.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MrCoto.Ca.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="MrCoto.Ca.Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Common" t="Include">
