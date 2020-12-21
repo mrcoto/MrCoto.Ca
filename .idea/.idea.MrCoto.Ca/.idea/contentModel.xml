@@ -303,6 +303,7 @@
       </e>
       <e p="MrCoto.Ca.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CaContext.cs" t="Include" />
         <e p="Common" t="Include">
           <e p="Background" t="Include">
             <e p="BackgroundJobService.cs" t="Include" />
@@ -422,9 +423,92 @@
             </e>
           </e>
         </e>
-        <e p="SimpleAgendaContext.cs" t="Include" />
       </e>
       <e p="MrCoto.Ca.sln" t="IncludeFlat" />
+      <e p="MrCoto.Ca.WebApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="appsettings.Production.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="ApiController.cs" t="Include" />
+            <e p="QueryApiController.cs" t="Include" />
+          </e>
+          <e p="Exceptions" t="Include">
+            <e p="ExceptionHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="Modules" t="Include">
+          <e p="GeneralModule" t="Include">
+            <e p="Users" t="Include">
+              <e p="ClientInfoController.cs" t="Include" />
+              <e p="CurrentUserController.cs" t="Include" />
+              <e p="LoginUserController.cs" t="Include" />
+              <e p="RefreshTokenController.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="MrCoto.Ca.WebApi.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MrCoto.Ca.WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="MrCoto.Ca.WebApiTests" t="IncludeRecursive">
+        <e p="appsettings.Test.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configuration" t="Include">
+          <e p="FakeInfrastructureDependencyInjection.cs" t="Include" />
+          <e p="FakeStartup.cs" t="Include" />
+          <e p="TestUtil.cs" t="Include" />
+          <e p="WebAppFactory.cs" t="Include" />
+        </e>
+        <e p="Fake" t="Include">
+          <e p="FakeBackgroundService.cs" t="Include" />
+          <e p="FakeClientInfoDetection.cs" t="Include" />
+          <e p="FakeMailService.cs" t="Include" />
+        </e>
+        <e p="Modules" t="Include">
+          <e p="Common" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="CreatedResponse.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GeneralModule" t="Include">
+            <e p="Users" t="Include">
+              <e p="Controllers" t="Include">
+                <e p="LoginUserControllerTest.cs" t="Include" />
+                <e p="RefreshTokenControllerTest.cs" t="Include" />
+              </e>
+              <e p="FakeData" t="Include">
+                <e p="RefreshTokenFake.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="MrCoto.Ca.WebApiTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MrCoto.Ca.WebApiTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Src" t="Include" />
       <e p="Tests" t="Include" />

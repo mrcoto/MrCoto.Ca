@@ -8,7 +8,7 @@ namespace MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Repositories
 {
     public class RoleRepository : Repository<Role, long>, IRoleRepository
     {
-        public RoleRepository(SimpleAgendaContext context) : base(context)
+        public RoleRepository(CaContext context) : base(context)
         {
         }
 

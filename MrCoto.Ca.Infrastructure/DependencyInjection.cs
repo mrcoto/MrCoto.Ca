@@ -38,7 +38,7 @@ namespace MrCoto.Ca.Infrastructure
             services.AddDetection();
             services.TryAddScoped<IHttpContextAccessor, HttpContextAccessor>();
             var connectionString = configuration.GetConnectionString("DB");
-            services.AddDbContext<SimpleAgendaContext>(options => options
+            services.AddDbContext<CaContext>(options => options
                 .UseNpgsql(connectionString)
                 .UseSnakeCaseNamingConvention());
 

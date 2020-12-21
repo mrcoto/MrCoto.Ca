@@ -6,11 +6,11 @@ using MrCoto.Ca.Infrastructure.Modules.GeneralModule.Configuration;
 
 namespace MrCoto.Ca.Infrastructure
 {
-    public class SimpleAgendaContext : DbContext
+    public class CaContext : DbContext
     {
         private readonly IHostEnvironment _environment;
 
-        public SimpleAgendaContext(DbContextOptions<SimpleAgendaContext> options, IHostEnvironment environment)
+        public CaContext(DbContextOptions<CaContext> options, IHostEnvironment environment)
             : base(options)
         {
             _environment = environment;

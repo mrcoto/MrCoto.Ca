@@ -10,7 +10,7 @@ namespace MrCoto.Ca.Infrastructure.Common.Repositories
     public class TenantRepository<TEntity, TId> : Repository<TEntity, TId>, ITenantRepository<TEntity, TId>
         where TEntity : Entity<TId>, ITenantable, new()
     {
-        public TenantRepository(SimpleAgendaContext context) : base(context)
+        public TenantRepository(CaContext context) : base(context)
         {
         }
 

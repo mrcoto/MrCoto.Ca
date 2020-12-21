@@ -9,9 +9,9 @@ namespace MrCoto.Ca.Infrastructure.Common.Repositories
 {
     public class Repository<TEntity, TId> : IRepository<TEntity, TId> where TEntity : Entity<TId>, new()
     {
-        protected readonly SimpleAgendaContext Context;
+        protected readonly CaContext Context;
 
-        public Repository(SimpleAgendaContext context)
+        public Repository(CaContext context)
         {
             Context = context;
         }

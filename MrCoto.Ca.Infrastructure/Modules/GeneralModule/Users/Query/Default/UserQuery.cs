@@ -16,7 +16,7 @@ namespace MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Query.Default
 {
     public class UserQuery : BaseQuery<UserDto, User>, IUserQuery
     {
-        public UserQuery(SimpleAgendaContext context, IPaginationBuilder paginationBuilder) : 
+        public UserQuery(CaContext context, IPaginationBuilder paginationBuilder) : 
             base(context, paginationBuilder)
         {
             

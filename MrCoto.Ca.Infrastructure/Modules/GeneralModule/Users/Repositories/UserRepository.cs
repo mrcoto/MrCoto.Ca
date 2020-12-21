@@ -8,7 +8,7 @@ namespace MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Repositories
 {
     public class UserRepository : Repository<User, long>, IUserRepository
     {
-        public UserRepository(SimpleAgendaContext context) : base(context)
+        public UserRepository(CaContext context) : base(context)
         {
         }
 

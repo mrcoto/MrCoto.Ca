@@ -19,7 +19,7 @@ namespace MrCoto.Ca.Infrastructure.Modules.GeneralModule.Configuration
         public ITenantRepository TenantRepository => new TenantRepository(Context);
         public IRoleRepository RoleRepository => new RoleRepository(Context);
 
-        public UowGeneral(SimpleAgendaContext context, IDomainEventPublisher eventPublisher) : base(context, eventPublisher)
+        public UowGeneral(CaContext context, IDomainEventPublisher eventPublisher) : base(context, eventPublisher)
         {
         }
     }

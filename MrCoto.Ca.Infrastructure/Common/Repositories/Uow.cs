@@ -11,10 +11,10 @@ namespace MrCoto.Ca.Infrastructure.Common.Repositories
 {
     public class Uow : IUow
     {
-        protected readonly SimpleAgendaContext Context;
+        protected readonly CaContext Context;
         private readonly IDomainEventPublisher _eventPublisher;
 
-        public Uow(SimpleAgendaContext context, IDomainEventPublisher eventPublisher)
+        public Uow(CaContext context, IDomainEventPublisher eventPublisher)
         {
             Context = context;
             _eventPublisher = eventPublisher;

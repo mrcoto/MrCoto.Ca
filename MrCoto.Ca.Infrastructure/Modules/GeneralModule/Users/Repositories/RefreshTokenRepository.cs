@@ -8,7 +8,7 @@ namespace MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Repositories
 {
     public class RefreshTokenRepository : Repository<RefreshToken, long>, IRefreshTokenRepository
     {
-        public RefreshTokenRepository(SimpleAgendaContext context) : base(context)
+        public RefreshTokenRepository(CaContext context) : base(context)
         {
         }
 

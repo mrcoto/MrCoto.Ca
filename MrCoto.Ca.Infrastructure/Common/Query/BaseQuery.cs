@@ -15,10 +15,10 @@ namespace MrCoto.Ca.Infrastructure.Common.Query
 {
     public abstract class BaseQuery<TOutput, TEntity> where TEntity : Entity<long>, new()
     {
-        protected readonly SimpleAgendaContext Context;
+        protected readonly CaContext Context;
         protected readonly IPaginationBuilder PaginationBuilder;
         
-        public BaseQuery(SimpleAgendaContext context, IPaginationBuilder paginationBuilder)
+        public BaseQuery(CaContext context, IPaginationBuilder paginationBuilder)
         {
             Context = context;
             PaginationBuilder = paginationBuilder;

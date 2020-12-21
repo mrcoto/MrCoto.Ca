@@ -10,10 +10,10 @@ namespace MrCoto.Ca.Infrastructure.Common.CurrentUsers
     public class CurrentUserService : ICurrentUserService
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly SimpleAgendaContext _context;
+        private readonly CaContext _context;
         private CurrentUser _currentUser;
 
-        public CurrentUserService(IHttpContextAccessor httpContextAccessor, SimpleAgendaContext context)
+        public CurrentUserService(IHttpContextAccessor httpContextAccessor, CaContext context)
         {
             _httpContextAccessor = httpContextAccessor;
             _context = context;

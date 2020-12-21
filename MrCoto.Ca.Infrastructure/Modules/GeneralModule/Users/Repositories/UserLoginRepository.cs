@@ -9,7 +9,7 @@ namespace MrCoto.Ca.Infrastructure.Modules.GeneralModule.Users.Repositories
 {
     public class UserLoginRepository : Repository<UserLogin, long>, IUserLoginRepository
     {
-        public UserLoginRepository(SimpleAgendaContext context) : base(context)
+        public UserLoginRepository(CaContext context) : base(context)
         {
         }
 
