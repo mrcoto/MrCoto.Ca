@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\José\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MrCoto.Ca.-1967972642.00" t="ExcludeRecursive" />
+    <e p="C:\Users\José\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\José\Documents\proyectos\MrCoto.Ca" t="IncludeFlat">
+      <e p="MrCoto.Ca.sln" t="IncludeFlat" />
+      <e p="Src" t="Include" />
+      <e p="Tests" t="Include" />
+    </e>
+  </component>
+</project>
